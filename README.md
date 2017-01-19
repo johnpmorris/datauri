@@ -1,4 +1,4 @@
-# Data uri generator + svg encoder
+# URL encoder / SVG Data Uri Generator
 
 based on / forked from [Eric Meyer's dencoder](http://meyerweb.com/eric/tools/dencoder/)
 
@@ -6,4 +6,4 @@ based on / forked from [Eric Meyer's dencoder](http://meyerweb.com/eric/tools/de
 
 `npm start`
 
-`npm deploy'
+`npm deploy`
