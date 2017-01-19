@@ -1,0 +1,11 @@
+#!/bin/sh
+
+npm run build 
+
+git add . 
+git commit -m "auto commit" 
+
+echo '➙ Deploying...' && \
+git subtree push --prefix build origin gh-pages >> /dev/null 2>&1 # Pushing only '_site' folder to gh-pages branch
+
+echo '➙ Done!'
