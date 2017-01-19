@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 /* eslint-disable */
 
@@ -130,6 +131,7 @@ export default class App extends Component {
             firefox complains sometimes.
           </a>
         </p>
+        <a className="gh" target="_blank" href="https://github.com/johnpmorris/datauri/"/>
       </header>
     )
   }
