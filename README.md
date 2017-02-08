@@ -1,4 +1,4 @@
-# URL encoder / SVG Data Uri Generator
+# URL encoder / SVG Data URI Generator
 
 based on / forked from [Eric Meyer's dencoder](http://meyerweb.com/eric/tools/dencoder/)
 

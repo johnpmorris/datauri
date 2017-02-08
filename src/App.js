@@ -68,7 +68,7 @@ export default class App extends Component {
   getButtonText(){
     const { uri, encode, uriType } = this.state
     if (uri) {
-      return `Create ${encode ? 'encoded' : ''} uri`
+      return `Create ${encode ? 'encoded' : ''} URI`
     } else if (!uri) {
       return encode ? 'Encode' : 'Do nothing...'
     }
@@ -94,7 +94,7 @@ export default class App extends Component {
               {encode ? 'Encode' : "Don't encode"}
             </div>
             <div style={{...styles.button}} onClick={this.uriToggle}>
-              {uri ? 'create uri' : "don't create uri"}
+              {uri ? 'create URI' : "don't create URI"}
             </div>
             {uri &&
               <div style={{...styles.button, background: '#333', color: 'white'}} onClick={this.uriTypeToggle}>
@@ -115,7 +115,7 @@ export default class App extends Component {
   renderHeader() {
     return(
       <header style={{padding: '0.5em 2em'}}>
-        <h1 style={{fontSize: '1.5em'}}>URL encoder / SVG Data Uri Generator</h1>
+        <h1 style={{fontSize: '1.5em'}}>URL encoder / SVG Data URI Generator</h1>
         <p>> Why?<br/>
           <a
             target="_blank"

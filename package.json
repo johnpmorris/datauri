@@ -17,5 +17,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://johnmpmorris.github.io/datauri"
+  "homepage": "https://johnpmorris.github.io/datauri"
 }
